@@ -2,7 +2,7 @@
 
 ## 📋 Description
 
-A complete business management system for **Xavier Design Comunicação Visual**, a company specialized in digital and offset printing, visual communication, commercial façades, metal structures, and custom projects.
+A complete business management system for **SaaS Management System – Visual Communication**, a company specialized in digital and offset printing, visual communication, commercial façades, metal structures, and custom projects.
 
 The system is robust, scalable, and ready for real commercial use, with a strong focus on financial control, budgeting, production, and reporting.
 
@@ -176,7 +176,7 @@ xavier-design/
 1. **Clone or extract the project**
 
    ```bash
-   cd /path/to/xavier-design
+   cd /path/to/visual-comunication-app-v2
    ```
 
 2. **Create the database**
@@ -220,8 +220,8 @@ xavier-design/
 6. **Access the application**
 
    * URL: `http://localhost:8000`
-   * Email: `admin@xavierdesign.com`
-   * Password: `admin123`
+   * Email: `freelaforever@gmail.com`
+   * Password: `123456`
 
 ## 📊 Database
 
