@@ -1,0 +1,276 @@
+================================================================================
+SISTEMA SAAS DE GESTÃO - XAVIER DESIGN COMUNICAÇÃO VISUAL
+Resumo do Projeto - 02/01/2026
+================================================================================
+
+📋 DESCRIÇÃO DO PROJETO
+================================================================================
+
+Sistema completo de gestão empresarial desenvolvido em PHP, HTML5, CSS3 e 
+JavaScript, com banco de dados MySQL. O sistema é robusto, escalável e 
+preparado para uso comercial real.
+
+🎯 OBJETIVO
+Fornecer uma solução SaaS profissional para a empresa Xavier Design 
+Comunicação Visual, especializada em impressão digital/offset, comunicação 
+visual, fachadas comerciais, estruturas metálicas e projetos personalizados.
+
+🛠️ TECNOLOGIAS UTILIZADAS
+================================================================================
+
+Backend:
+  • PHP 7.4+ (Linguagem de programação)
+  • Arquitetura MVC (Model-View-Controller)
+  • PDO (Acesso seguro ao banco de dados)
+
+Banco de Dados:
+  • MySQL 5.7+ (Banco de dados relacional)
+  • 13 tabelas normalizadas
+  • Índices otimizados para performance
+
+Frontend:
+  • HTML5 (Marcação semântica)
+  • CSS3 (Estilização responsiva)
+  • JavaScript Puro (Interatividade)
+  • Chart.js (Gráficos interativos)
+
+Geração de Documentos:
+  • TCPDF (Geração de PDFs profissionais)
+
+📁 ESTRUTURA DO PROJETO
+================================================================================
+
+xavier-design/
+├── public/                    # Ponto de entrada (index.php)
+├── app/
+│   ├── controllers/          # Lógica de negócio (7 controllers)
+│   ├── models/               # Acesso ao banco de dados (7 models)
+│   └── views/                # Templates HTML (múltiplas views)
+├── config/                   # Configurações (app.php, database.php)
+├── database/                 # Script SQL (schema.sql)
+├── assets/
+│   ├── css/                  # Estilos (style.css)
+│   ├── js/                   # Scripts JavaScript
+│   └── images/               # Imagens
+├── uploads/                  # Diretório para uploads
+├── logs/                     # Logs de atividades
+└── Documentação (README, INSTALACAO, ARQUITETURA, TESTES)
+
+✨ FUNCIONALIDADES PRINCIPAIS
+================================================================================
+
+1. AUTENTICAÇÃO E CONTROLE DE ACESSO
+   • Login seguro com email e senha
+   • Recuperação de senha
+   • 4 perfis de usuário (Admin, Financeiro, Produção, Vendas)
+   • Controle de permissões
+   • Logs de atividades
+
+2. DASHBOARD INTELIGENTE
+   • KPIs em tempo real (clientes, orçamentos, ordens, contas atrasadas)
+   • Gráficos interativos (status de orçamentos, vendas 12 meses)
+   • Situação financeira (a receber, a pagar, vendas do mês)
+   • Últimos orçamentos e ordens em produção
+
+3. MÓDULO DE CLIENTES
+   • Cadastro completo (PF e PJ)
+   • Armazenamento de contatos e endereço
+   • Busca e filtros avançados
+   • Histórico de transações
+
+4. MÓDULO DE ORÇAMENTOS
+   • Criação de orçamentos detalhados
+   • Cálculo automático (materiais, mão de obra, margem)
+   • Status: Rascunho, Enviado, Aprovado, Reprovado
+   • Geração de PDF profissional
+   • Número único automático
+   • Itens com quantidade e preço
+
+5. MÓDULO DE ORDENS DE PRODUÇÃO
+   • Geração automática a partir de orçamento aprovado
+   • Controle de etapas (Criação, Produção, Instalação, Finalizado)
+   • Atribuição de responsáveis
+   • Datas e observações técnicas
+   • Número único automático
+
+6. MÓDULO FINANCEIRO
+   • Contas a Receber (gestão de pagamentos de clientes)
+   • Contas a Pagar (gestão de pagamentos a fornecedores)
+   • Fluxo de caixa
+   • Formas de pagamento
+   • Vínculo com orçamentos e ordens
+   • Identificação de contas atrasadas
+
+7. CADASTROS COMPLEMENTARES
+   • Fornecedores (com contatos e endereço)
+   • Produtos e Serviços (com categorias e preços)
+   • Materiais (com estoque e fornecedor)
+   • Categorias pré-cadastradas
+
+8. DESIGN E EXPERIÊNCIA
+   • Layout moderno e profissional
+   • Estilo SaaS corporativo
+   • Responsivo (desktop, tablet, mobile)
+   • Interface limpa e intuitiva
+   • Navegação intuitiva
+   • Mensagens de erro e sucesso claras
+
+🔐 SEGURANÇA
+================================================================================
+
+• Autenticação com hash bcrypt (custo 12)
+• Validação de CSRF token em formulários
+• Prepared statements contra SQL injection
+• Sanitização de inputs contra XSS
+• Controle de acesso por perfil
+• Logs de todas as atividades
+• Registro de IP address
+• Sessões com timeout configurável
+
+📊 BANCO DE DADOS
+================================================================================
+
+13 Tabelas Normalizadas:
+
+1. usuarios (autenticação e perfis)
+2. clientes (dados de clientes PF/PJ)
+3. fornecedores (dados de fornecedores)
+4. categorias (categorias de produtos)
+5. produtos (produtos e serviços)
+6. materiais (materiais e insumos)
+7. orcamentos (orçamentos)
+8. orcamento_itens (itens dos orçamentos)
+9. ordens_producao (ordens de produção)
+10. ordem_etapas (etapas das ordens)
+11. contas_receber (contas a receber)
+12. contas_pagar (contas a pagar)
+13. logs_atividades (logs de atividades)
+14. configuracoes (configurações da empresa)
+
+Dados Pré-cadastrados:
+• 1 usuário admin (admin@xavierdesign.com / admin123)
+• 8 categorias de produtos
+• 9 produtos de exemplo
+• 8 materiais de exemplo
+
+🚀 COMO USAR
+================================================================================
+
+1. INSTALAÇÃO
+   • Executar database/schema.sql no MySQL
+   • Configurar credenciais em config/database.php
+   • Iniciar servidor: php -S localhost:8000 -t public/
+
+2. ACESSO
+   • URL: http://localhost:8000
+   • Email: admin@xavierdesign.com
+   • Senha: admin123
+
+3. NAVEGAÇÃO
+   • Dashboard: Visão geral do negócio
+   • Clientes: Gerenciar clientes
+   • Orçamentos: Criar e gerenciar orçamentos
+   • Ordens de Produção: Controlar produção
+   • Financeiro: Gestão financeira
+   • Relatórios: Gerar relatórios
+   • Configurações: Ajustes do sistema
+
+📈 ESCALABILIDADE
+================================================================================
+
+O sistema está preparado para:
+• Multiempresa (suporte futuro)
+• Tema claro/escuro
+• API REST para integração
+• Relatórios avançados
+• Exportação em múltiplos formatos
+• Cache com Redis
+• Fila de jobs para processamento background
+• Microserviços
+
+📚 DOCUMENTAÇÃO
+================================================================================
+
+• README.md: Descrição geral e funcionalidades
+• INSTALACAO.md: Guia passo a passo de instalação
+• ARQUITETURA.md: Detalhes técnicos e padrões
+• TESTES.md: Checklist de testes e validações
+• Comentários no código: Explicações detalhadas
+
+✅ ENTREGÁVEIS
+================================================================================
+
+✓ Código completo em PHP, HTML, CSS e JavaScript
+✓ Banco de dados MySQL com script .sql
+✓ Sistema funcional e testado
+✓ Comentários no código
+✓ Estrutura organizada de pastas
+✓ Relatórios e orçamentos em PDF
+✓ Design profissional e responsivo
+✓ Documentação completa
+✓ Pronto para uso em produção
+
+🎨 DESIGN
+================================================================================
+
+• Paleta de cores profissional (azul, cinza, branco)
+• Tipografia clara e legível
+• Ícones intuitivos
+• Espaçamento consistente
+• Feedback visual claro
+• Acessibilidade considerada
+• Compatibilidade com navegadores modernos
+
+💡 EXTRAS IMPLEMENTADOS
+================================================================================
+
+• Logs de atividades com IP address
+• Configurações da empresa (editáveis)
+• Número automático de orçamentos e ordens
+• Cálculo automático de totais
+• Gráficos interativos com Chart.js
+• Busca de clientes com AJAX
+• Validação de formulários
+• Responsividade completa
+• Tema corporativo profissional
+
+🔄 FLUXO DE NEGÓCIO
+================================================================================
+
+1. Cliente cria conta e faz login
+2. Cadastra clientes (PF/PJ)
+3. Cria orçamento com itens
+4. Sistema calcula automaticamente
+5. Gera PDF profissional
+6. Envia para cliente
+7. Cliente aprova orçamento
+8. Sistema cria ordem de produção
+9. Equipe acompanha etapas
+10. Registra contas a receber
+11. Acompanha pagamentos
+12. Gera relatórios
+
+📞 SUPORTE E MANUTENÇÃO
+================================================================================
+
+Para suporte, manutenção ou desenvolvimento de novas funcionalidades:
+• Consultar documentação
+• Revisar comentários no código
+• Executar testes de validação
+• Fazer backup regular do banco de dados
+
+🏆 QUALIDADE
+================================================================================
+
+• Código limpo e bem organizado
+• Padrões de desenvolvimento seguidos
+• Segurança em primeiro lugar
+• Performance otimizada
+• Documentação completa
+• Testado e validado
+• Pronto para produção
+
+================================================================================
+Sistema desenvolvido com ❤️ para Xavier Design Comunicação Visual
+Versão 1.0 - 02/01/2026
+================================================================================
