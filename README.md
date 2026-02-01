@@ -1,258 +1,289 @@
-# Sistema SaaS de Gestão - Comunicação Visual
+Claro! Aqui está a **tradução completa para o inglês**, mantendo a estrutura e o tom profissional do original:
 
-## 📋 Descrição
+---
 
-Sistema completo de gestão empresarial para a empresa **Xavier Design Comunicação Visual**, especializada em impressão digital e offset, comunicação visual, fachadas comerciais, estruturas metálicas e projetos personalizados.
+# SaaS Management System – Visual Communication
 
-O sistema é robusto, escalável e preparado para uso comercial real, com foco em controle financeiro, orçamentos, produção e relatórios.
+## 📋 Description
 
-## 🎯 Funcionalidades Principais
+A complete business management system for **Xavier Design Comunicação Visual**, a company specialized in digital and offset printing, visual communication, commercial façades, metal structures, and custom projects.
 
-### 1. Autenticação e Controle de Acesso
-- Login seguro com autenticação por email e senha
-- Recuperação de senha
-- Perfis de usuário com permissões:
-  - **Administrador**: Acesso total ao sistema
-  - **Financeiro**: Gestão de contas a receber/pagar
-  - **Produção**: Controle de ordens de produção
-  - **Vendas**: Gestão de orçamentos e clientes
-- Logs de atividades
+The system is robust, scalable, and ready for real commercial use, with a strong focus on financial control, budgeting, production, and reporting.
 
-### 2. Dashboard Inteligente
-- Indicadores principais (KPIs):
-  - Total de clientes
-  - Orçamentos aprovados/pendentes
-  - Ordens em andamento
-  - Contas atrasadas
-- Gráficos interativos:
-  - Status dos orçamentos
-  - Vendas dos últimos 12 meses
-- Situação financeira em tempo real
-- Últimos orçamentos e ordens em produção
+## 🎯 Main Features
 
-### 3. Módulo de Clientes
-- Cadastro completo de clientes (PF e PJ)
-- Armazenamento de dados de contato e endereço
-- Busca e filtros avançados
-- Histórico de transações por cliente
+### 1. Authentication and Access Control
 
-### 4. Módulo de Orçamentos
-- Criação de orçamentos detalhados
-- Cálculo automático de:
-  - Materiais
-  - Mão de obra
-  - Margem de lucro
-- Status do orçamento:
-  - Rascunho
-  - Enviado
-  - Aprovado
-  - Reprovado
-- **Geração de PDF profissional** com:
-  - Logo da empresa
-  - Dados do cliente
-  - Descrição dos serviços
-  - Valores detalhados
-  - Validade do orçamento
-  - Assinatura
+* Secure login with email and password authentication
+* Password recovery
+* User roles with permissions:
 
-### 5. Módulo de Ordens de Produção
-- Geração automática a partir de orçamento aprovado
-- Controle de etapas:
-  - Criação
-  - Produção
-  - Instalação
-  - Finalizado
-- Atribuição de responsáveis
-- Datas e observações técnicas
+  * **Administrator**: Full system access
+  * **Finance**: Accounts receivable/payable management
+  * **Production**: Production order control
+  * **Sales**: Budget and customer management
+* Activity logs
 
-### 6. Módulo Financeiro
-- **Contas a Receber**: Gestão de pagamentos de clientes
-- **Contas a Pagar**: Gestão de pagamentos a fornecedores
-- Fluxo de caixa
-- Formas de pagamento
-- Relatórios financeiros
-- Vínculo com orçamentos e ordens
+### 2. Smart Dashboard
 
-### 7. Relatórios (Exportáveis em PDF)
-- Relatório de vendas
-- Relatório financeiro
-- Relatório por cliente
-- Relatório por tipo de serviço
-- Exportação em PDF para impressão
+* Key Performance Indicators (KPIs):
 
-### 8. Cadastros Complementares
-- **Fornecedores**: Gestão de fornecedores com contatos
-- **Produtos e Serviços**: Categorias e preços
-- **Materiais**: Controle de materiais e estoque
+  * Total customers
+  * Approved/pending budgets
+  * Ongoing production orders
+  * Overdue accounts
+* Interactive charts:
 
-## 🛠️ Tecnologias Utilizadas
+  * Budget status
+  * Sales over the last 12 months
+* Real-time financial overview
+* Latest budgets and production orders
+
+### 3. Customer Module
+
+* Complete customer registration (individuals and companies)
+* Storage of contact and address data
+* Advanced search and filters
+* Transaction history per customer
+
+### 4. Budget Module
+
+* Creation of detailed budgets
+* Automatic calculation of:
+
+  * Materials
+  * Labor
+  * Profit margin
+* Budget statuses:
+
+  * Draft
+  * Sent
+  * Approved
+  * Rejected
+* **Professional PDF generation** including:
+
+  * Company logo
+  * Customer details
+  * Service descriptions
+  * Detailed pricing
+  * Budget validity
+  * Signature
+
+### 5. Production Orders Module
+
+* Automatic generation from approved budgets
+* Stage control:
+
+  * Created
+  * In production
+  * Installation
+  * Completed
+* Assignment of responsible staff
+* Dates and technical notes
+
+### 6. Financial Module
+
+* **Accounts Receivable**: Customer payment management
+* **Accounts Payable**: Supplier payment management
+* Cash flow
+* Payment methods
+* Financial reports
+* Integration with budgets and production orders
+
+### 7. Reports (Exportable to PDF)
+
+* Sales reports
+* Financial reports
+* Customer-based reports
+* Service-type reports
+* PDF export for printing
+
+### 8. Additional Registrations
+
+* **Suppliers**: Supplier management with contact details
+* **Products and Services**: Categories and pricing
+* **Materials**: Material and inventory control
+
+## 🛠️ Technologies Used
 
 ### Backend
-- **PHP 7.4+**: Linguagem de programação
-- **Arquitetura MVC**: Separação de responsabilidades
-- **PDO**: Acesso seguro ao banco de dados
 
-### Banco de Dados
-- **MySQL 5.7+**: Banco de dados relacional
-- **Tabelas normalizadas**: Integridade referencial
-- **Índices otimizados**: Performance
+* **PHP 7.4+**: Programming language
+* **MVC Architecture**: Separation of concerns
+* **PDO**: Secure database access
+
+### Database
+
+* **MySQL 5.7+**: Relational database
+* **Normalized tables**: Referential integrity
+* **Optimized indexes**: Performance
 
 ### Frontend
-- **HTML5**: Marcação semântica
-- **CSS3**: Estilização responsiva
-- **JavaScript Puro**: Interatividade sem dependências pesadas
-- **Chart.js**: Gráficos interativos
 
-### Geração de Documentos
-- **TCPDF**: Geração de PDFs profissionais
+* **HTML5**: Semantic markup
+* **CSS3**: Responsive styling
+* **Vanilla JavaScript**: Interactivity without heavy dependencies
+* **Chart.js**: Interactive charts
 
-## 📁 Estrutura de Pastas
+### Document Generation
+
+* **TCPDF**: Professional PDF generation
+
+## 📁 Folder Structure
 
 ```
 xavier-design/
 ├── public/
-│   └── index.php              # Ponto de entrada da aplicação
+│   └── index.php              # Application entry point
 ├── app/
-│   ├── controllers/           # Controllers (lógica de negócio)
+│   ├── controllers/           # Controllers (business logic)
 │   │   ├── AuthController.php
 │   │   ├── DashboardController.php
 │   │   ├── ClienteController.php
 │   │   └── OrcamentoController.php
-│   ├── models/                # Models (acesso ao banco de dados)
+│   ├── models/                # Models (database access)
 │   │   ├── Model.php
 │   │   ├── Usuario.php
 │   │   ├── Cliente.php
 │   │   ├── Orcamento.php
 │   │   └── OrdemProducao.php
-│   └── views/                 # Views (templates HTML)
+│   └── views/                 # Views (HTML templates)
 │       ├── auth/
 │       ├── dashboard/
 │       └── clientes/
 ├── config/
-│   ├── app.php               # Configurações gerais
-│   └── database.php          # Configuração do banco de dados
+│   ├── app.php               # General configuration
+│   └── database.php          # Database configuration
 ├── database/
-│   └── schema.sql            # Script de criação do banco de dados
+│   └── schema.sql            # Database creation script
 ├── assets/
 │   ├── css/
-│   │   └── style.css         # Estilos CSS
+│   │   └── style.css         # CSS styles
 │   ├── js/
-│   │   └── app.js            # Scripts JavaScript
-│   └── images/               # Imagens
-├── uploads/                  # Diretório para uploads de arquivos
-├── logs/                     # Logs de atividades
-└── README.md                 # Este arquivo
+│   │   └── app.js            # JavaScript scripts
+│   └── images/               # Images
+├── uploads/                  # File uploads directory
+├── logs/                     # Activity logs
+└── README.md                 # This file
 ```
 
-## 🚀 Instalação e Configuração
+## 🚀 Installation and Setup
 
-### Pré-requisitos
-- PHP 7.4 ou superior
-- MySQL 5.7 ou superior
-- Servidor web (Apache, Nginx, etc.)
+### Requirements
 
-### Passos de Instalação
+* PHP 7.4 or higher
+* MySQL 5.7 or higher
+* Web server (Apache, Nginx, etc.)
 
-1. **Clonar ou extrair o projeto**
+### Installation Steps
+
+1. **Clone or extract the project**
+
    ```bash
-   cd /caminho/para/xavier-design
+   cd /path/to/xavier-design
    ```
 
-2. **Criar o banco de dados**
+2. **Create the database**
+
    ```bash
    mysql -u root -p < database/schema.sql
    ```
 
-3. **Configurar o banco de dados**
-   Você pode configurar o banco de dados de duas formas:
-   
-   **Opção A: Usando arquivo .env (Recomendado)**
-   Renomeie o arquivo `.env.example` para `.env` e preencha suas credenciais.
-   
-   **Opção B: Editando config/database.php**
-   Edite o arquivo `config/database.php` com suas credenciais:
+3. **Configure the database**
+   You can configure the database in two ways:
+
+   **Option A: Using a .env file (Recommended)**
+   Rename `.env.example` to `.env` and fill in your credentials.
+
+   **Option B: Editing config/database.php**
+   Edit `config/database.php` with your credentials:
+
    ```php
    define('DB_HOST', 'localhost');
-   define('DB_USER', 'seu_usuario');
-   define('DB_PASS', 'sua_senha');
+   define('DB_USER', 'your_user');
+   define('DB_PASS', 'your_password');
    define('DB_NAME', 'xavier_design');
    ```
 
-4. **Configurar permissões de pastas**
+4. **Set folder permissions**
+
    ```bash
    chmod 755 uploads/
    chmod 755 logs/
    ```
 
-5. **Iniciar o servidor**
+5. **Start the server**
+
    ```bash
-   # Usando PHP built-in server
+   # Using PHP built-in server
    php -S localhost:8000 -t public/
-   
-   # Ou configurar no Apache/Nginx
+
+   # Or configure Apache/Nginx
    ```
 
-6. **Acessar a aplicação**
-   - URL: `http://localhost:8000`
-   - Email: `admin@xavierdesign.com`
-   - Senha: `admin123`
+6. **Access the application**
 
-## 📊 Banco de Dados
+   * URL: `http://localhost:8000`
+   * Email: `admin@xavierdesign.com`
+   * Password: `admin123`
 
-### Tabelas Principais
+## 📊 Database
 
-| Tabela | Descrição |
-|--------|-----------|
-| `usuarios` | Usuários do sistema |
-| `clientes` | Clientes (PF/PJ) |
-| `fornecedores` | Fornecedores |
-| `produtos` | Produtos e serviços |
-| `materiais` | Materiais e insumos |
-| `orcamentos` | Orçamentos |
-| `orcamento_itens` | Itens dos orçamentos |
-| `ordens_producao` | Ordens de produção |
-| `ordem_etapas` | Etapas das ordens |
-| `contas_receber` | Contas a receber |
-| `contas_pagar` | Contas a pagar |
-| `logs_atividades` | Log de atividades |
-| `configuracoes` | Configurações da empresa |
+### Main Tables
 
-## 🔐 Segurança
+| Table             | Description                       |
+| ----------------- | --------------------------------- |
+| `usuarios`        | System users                      |
+| `clientes`        | Customers (individuals/companies) |
+| `fornecedores`    | Suppliers                         |
+| `produtos`        | Products and services             |
+| `materiais`       | Materials and supplies            |
+| `orcamentos`      | Budgets                           |
+| `orcamento_itens` | Budget items                      |
+| `ordens_producao` | Production orders                 |
+| `ordem_etapas`    | Order stages                      |
+| `contas_receber`  | Accounts receivable               |
+| `contas_pagar`    | Accounts payable                  |
+| `logs_atividades` | Activity logs                     |
+| `configuracoes`   | Company settings                  |
 
-- **Autenticação**: Senhas com hash bcrypt
-- **Validação**: Sanitização de inputs
-- **CSRF Token**: Proteção contra ataques CSRF
-- **SQL Injection**: Uso de prepared statements
-- **Logs**: Registro de todas as atividades
+## 🔐 Security
 
-## 📈 Escalabilidade
+* **Authentication**: Passwords hashed with bcrypt
+* **Validation**: Input sanitization
+* **CSRF Token**: Protection against CSRF attacks
+* **SQL Injection**: Use of prepared statements
+* **Logs**: Logging of all activities
 
-O sistema está preparado para:
-- **Multiempresa**: Suporte futuro para múltiplas empresas
-- **Tema claro/escuro**: Implementação de temas
-- **API REST**: Integração com sistemas externos
-- **Relatórios avançados**: Exportação em múltiplos formatos
+## 📈 Scalability
 
-## 🎨 Design e UX
+The system is designed to support:
 
-- Layout moderno e profissional
-- Estilo SaaS corporativo
-- Identidade visual voltada para comunicação visual
-- Responsivo (desktop, tablet e mobile)
-- Interface limpa, intuitiva e elegante
+* **Multi-company**: Future support for multiple companies
+* **Light/Dark theme**: Theme implementation
+* **REST API**: Integration with external systems
+* **Advanced reports**: Export to multiple formats
 
-## 📝 Comentários no Código
+## 🎨 Design and UX
 
-Todo o código está bem comentado e documentado para facilitar manutenção e desenvolvimento futuro.
+* Modern and professional layout
+* Corporate SaaS-style design
+* Visual identity focused on visual communication
+* Responsive (desktop, tablet, and mobile)
+* Clean, intuitive, and elegant interface
 
-## 🤝 Suporte e Manutenção
+## 📝 Code Comments
 
-Para suporte, manutenção ou desenvolvimento de novas funcionalidades, entre em contato com a equipe de desenvolvimento.
+All code is well-commented and documented to facilitate maintenance and future development.
 
-## 📄 Licença
+## 🤝 Support and Maintenance
 
-Este sistema é propriedade da Xavier Design Comunicação Visual.
+For support, maintenance, or development of new features, please contact the development team.
+
+## 📄 License
+
+This system is the property of Xavier Design Comunicação Visual.
 
 ---
 
-**Desenvolvido com ❤️ para Xavier Design Comunicação Visual**
+**Developed with ❤️ for Rodrigo Marchi Gonella**
