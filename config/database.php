@@ -9,9 +9,9 @@
 // ============================================================================
 $db_config = [
     'host'    => 'localhost',
-    'user'    => 'u591057133_visual',
-    'pass'    => 'bb/y|uGqHd2=',
-    'dbname'  => 'u591057133_visual',
+    'user'    => 'nome_do_usuario',
+    'pass'    => 'senha_aqui',
+    'dbname'  => 'nome_do_db',
     'charset' => 'utf8mb4'
 ];
 
