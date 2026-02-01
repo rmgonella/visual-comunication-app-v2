@@ -1,7 +1,3 @@
-Claro! Aqui está a **tradução completa para o inglês**, mantendo a estrutura e o tom profissional do original:
-
----
-
 # SaaS Management System – Visual Communication
 
 ## 📋 Description
